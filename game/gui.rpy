@@ -78,8 +78,16 @@ define gui.label_text_size = 36
 ## The size of text on the notify screen.
 define gui.notify_text_size = 24
 
-## The size of the game's title.
-define gui.title_text_size = 75
+## The game's title text
+define gui.title_text_size = 200
+define gui.title_text_layout = "nobreak"
+define gui.title_text_color = Color("#ffffff")
+define gui.title_text_outlines = [(
+    absolute(3),
+    "#DA93B5",
+    absolute(1),
+    absolute(0),
+)]
 
 
 ## Main and Game Menus #########################################################

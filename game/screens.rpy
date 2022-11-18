@@ -361,7 +361,21 @@ screen main_menu():
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
-    use navigation
+    # use navigation
+
+    # The main menu buttons.
+    frame:
+        style_prefix "mm"
+        xalign .02
+        yalign .98
+
+        has vbox
+
+        textbutton _("new game") action Start()
+        textbutton _("load game") action ShowMenu("load")
+        textbutton _("options") action ShowMenu("preferences")
+        # textbutton _("Help") action Help()
+        textbutton _("quit") action Quit(confirm=False)
 
     if gui.show_name:
 
@@ -385,7 +399,7 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    # background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0
