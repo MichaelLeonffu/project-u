@@ -365,6 +365,7 @@ screen main_menu():
 
     # The main menu buttons.
     frame:
+
         style_prefix "mm"
         xalign .02
         yalign .98
