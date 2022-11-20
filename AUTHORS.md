@@ -28,7 +28,11 @@ To give credit to each author of work for this software
 
 ## Software
 
-For all changes to files excluding artwork, audio, or original Ren'Py files the author is the git committer.
+For all changes to files excluding artwork, audio, original Ren'Py files, or attributed imported code; the author is the git committer.
+
+### tofurocks -- snowfall
+
+Creates a snowfall effect: `./snowblossom.rpy`. The original file has since been modified. Downloaded from [https://tofurocks.itch.io/snowfall-gui](https://tofurocks.itch.io/snowfall-gui) with a license of MIT.
 
 ## Limitations
 

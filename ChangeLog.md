@@ -4,6 +4,11 @@
 
 ### v0.0.
 
+#### v0.0.3-alpha
+
+- Updated conventions and specification.
+- Added `snowblossom.rpy` snowing effect. Credit in AUTHORS.
+
 #### v0.0.2-alpha
 
 - Customized main menu to look like concept found on [youtube](https://www.youtube.com/watch?v=TxymzI9Q12U).
