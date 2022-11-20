@@ -355,6 +355,10 @@ screen main_menu():
 
     add gui.main_menu_background
 
+    # image snow = Fixed(SnowBlossom("gui/snow1.png", 50, speed=(20, 50), yspeed=(100, 200), start=10))
+
+    # add Snow("gui/snow1.png", max_particles=1000)
+
     ## This empty frame darkens the main menu.
     frame:
         style "main_menu_frame"
@@ -388,6 +392,15 @@ screen main_menu():
 
             text "[config.version]":
                 style "main_menu_version"
+    
+    if gui.show_version and not gui.show_name:
+
+        vbox:
+            style "main_menu_vbox"
+
+            text "[config.version]":
+                style "main_menu_version"
+
 
 
 style main_menu_frame is empty

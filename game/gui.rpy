@@ -89,11 +89,21 @@ define gui.title_text_outlines = [(
     absolute(0),
 )]
 
+## The game's version text
+define gui.version_text_layout = "nobreak"
+define gui.version_text_color = Color("#ffffff")
+define gui.version_text_outlines = [(
+    absolute(3),
+    "#DA93B5",
+    absolute(1),
+    absolute(0),
+)]
 
 ## Main and Game Menus #########################################################
 
 ## The images used for the main and game menus.
-define gui.main_menu_background = "gui/main_menu.png"
+# define gui.main_menu_background = "gui/main_menu.png"
+define gui.main_menu_background = Movie(play="movies/main_menu_bg_low_bit_rate.webm", loop=-1)
 define gui.game_menu_background = "gui/game_menu.png"
 
 

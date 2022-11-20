@@ -4,6 +4,11 @@
 
 ### v0.0.
 
+#### v0.0.4-alpha
+
+- Updated Main Menu screen to have animation and music.
+- TODO: Needs to be higher resolution smaller file size.
+
 #### v0.0.3-alpha
 
 - Updated conventions and specification.

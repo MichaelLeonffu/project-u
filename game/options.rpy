@@ -18,7 +18,8 @@ define config.name = _("PROJECT µ")
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
-define gui.show_name = True
+define gui.show_name = False
+define gui.show_version = True
 
 
 ## The version of the game.
@@ -30,6 +31,7 @@ define config.version = "v0.0.2-alpha"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+This is an about page!
 """)
 
 
@@ -62,7 +64,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-define config.main_menu_music = "audio/bg/waves.mp3"
+# define config.main_menu_music = "audio/bg/waves.mp3"
 
 
 ## Transitions #################################################################

@@ -2,6 +2,14 @@
 
 To give credit to each author of work for this software
 
+## Movie/Video
+
+### Main Menu
+- Original file "inktober day 08 video vers no start text.mp4"
+- Artwork and Video by: Maisha Zaman
+- Audio: "waves" by Saje Bangel
+- Converted to WebM by Michael Leonffu: [game/movies/main_menu_bg_low_bit_rate.webm](game/movies/main_menu_bg_low_bit_rate.webm)
+
 ## Artwork: Background
 
 ### Maisha Zaman
